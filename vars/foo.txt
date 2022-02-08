@@ -1,6 +1,1 @@
-<!DOCTYPE html>
-<html>
-    <body>
-        <p>It is a helper text for foo.groovy global variable.</p>
-    </body>
-</html>
+It is a helper text for foo.groovy global variable.
