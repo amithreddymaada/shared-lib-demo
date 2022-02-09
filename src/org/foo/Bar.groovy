@@ -6,10 +6,10 @@ public class Bar{
         this.name = name;
     }
     def sayHello(){
-        sh' echo "Hello World from class \'Bar\' of src"'
+        sh 'echo "Hello World from class Bar of src"'
     }
 
     static void sayHelloStatic(){
-        sh' echo "Static hello world from class Bar of src"'
+        sh 'echo "Static hello world from class Bar of src"'
     }
 }
