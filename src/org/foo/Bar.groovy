@@ -9,7 +9,7 @@ public class Bar{
         steps.sh "echo Hello World from class Bar of src"
     }
 
-    static void sayHelloStatic(){
-        steps.sh "echo Static hello world from class Bar of src"
+    static void sayHelloStatic(Bar b){
+        b.steps.sh "echo Static hello world from class Bar of src"
     }
 }
